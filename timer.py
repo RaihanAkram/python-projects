@@ -12,7 +12,7 @@ def countdown(t):
 
     print('Time up !')
 
-t = input("\nPlease enter the time in seconds: ")
+t = input("\nPlease enter time (in seconds) to start the countdown: ")
 
 countdown(int(t))
 
