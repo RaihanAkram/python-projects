@@ -1,18 +1,6 @@
-#message = ['s','e','r','k','a','n']
-#print(message)
-#key = "kusurunugormemekokusurdandahabuyukbirkusurdur"
+#The Vigenère cipher is a method of encrypting messages by using a series of different Caesar ciphers based on the letters of a particular keyword. The Vigenère cipher is more powerful than a single Caesar cipher and is much harder to crack.
+#Enjoy!
 
-#print(10%3)
-
-#print(key)
-#message2 = message
-#message2[0] = key[0]
-#for i in range (6):
- #   message2[i] = key[i]
-
-
-#print(message2)
- 
 def vigenere_cipher(text, key, mode):
     result = ""
     key_index = 0
